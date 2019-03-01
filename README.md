@@ -1,22 +1,6 @@
 # Install
 ########################################
-cp -a .vim ~/.vim
-cp -a .vimrc ~/.vimrc
-
-# Ctags:
-cd ~/.vim/depends/
-unzip ctags-5.8.zip
-cd ctags-5.8
-./configure
-make
-sudo make install
-
-# vim 7.4.2367
-wget https://github.com/vim/vim/archive/v7.4.2367.tar.gz    
-tar zxvf v7.4.2367.tar.gz  
-cd vim-7.4.2367/src/
-sudo make && sudo make install
-
+./install
 # Cscope:
 参考Ctags步骤.
 ##################[快捷键定义]#################
